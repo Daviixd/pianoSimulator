@@ -24,7 +24,7 @@ body {
   #piano {
     width: 100%;
   }
- 
+
   #white {
     padding: 10px;
     gap: 5px;
@@ -121,4 +121,7 @@ body {
   background: linear-gradient(#222, black);
   border-bottom: none;
   height: 140px;
+}
+.disableKeys span {
+  opacity: 0;
 }
